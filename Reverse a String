@@ -1,0 +1,10 @@
+function reverseString(str) {
+  let arr = [];
+  for (i = str.length; i > 0; i--) {
+    arr.unshift(str.charAt(str.length - i));
+  }
+  let rev = arr.join('');
+  console.log(rev);
+}
+
+reverseString('noka');
