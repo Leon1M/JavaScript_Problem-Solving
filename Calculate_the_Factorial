@@ -1,0 +1,13 @@
+function calculatorFactorial(n) {
+  let m = 1;
+
+  if (n === 0) {
+    console.log(1);
+  } else {
+    for (i = 1; i <= n; i++) {
+      m = m * i;
+    }
+    console.log(m);
+  }
+}
+calculatorFactorial(10);
